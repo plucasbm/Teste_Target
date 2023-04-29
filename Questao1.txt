@@ -1,0 +1,32 @@
+Observe o trecho de código abaixo:
+
+    int INDICE = 13, SOMA = 0, K = 0;
+
+    enquanto K < INDICE faça{
+
+        K = K + 1;
+
+        SOMA = SOMA + K;
+}
+
+imprimir(SOMA);
+
+Ao final do processamento, qual será o valor da variável SOMA?
+
+RESPOSTA: SOMA = 91.
+
+public class Questao1{
+
+    public static void main(String [] args){
+        int index = 13, k = 0, soma = 0;
+
+        while(k<index){
+            k += 1;
+
+            soma += k;
+        }
+
+        System.out.println("O valor da soma eh: "+soma);
+    }
+
+}
